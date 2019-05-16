@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.pages.login"
+             Padding="10"
+             >
+             
+    <ContentPage.Content>
+        <StackLayout Padding="10,30,10,10" Spacing="0">
+            <Image x:Name="imageLogos" BackgroundColor="White" 
+                    Source="logotwk.png"/>
+            <Label Text="Login"
+                    Font="12"
+                    TextColor="White"
+                    BackgroundColor="Gray"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="360" 
+                    HeightRequest="20"
+                    ></Label>
+            <Entry x:Name="userEntry"
+                    Placeholder="Usuario"
+                    TextColor="gray"
+                    WidthRequest="260"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+            <Entry x:Name="passEntry"
+                    Placeholder="Password"
+                    IsPassword = "true"
+                    WidthRequest="260"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+            
+            <Button x:Name="loginButton"
+                    Text="Aceptar"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    WidthRequest="260"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                ></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

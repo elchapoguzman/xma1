@@ -45,7 +45,10 @@
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                 ></Button>
-            
+            <ActivityIndicator x:Name="waitActivityIndicator"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+            </ActivityIndicator>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
